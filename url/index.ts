@@ -1,7 +1,7 @@
 import { api } from "encore.dev/api";
 import { UrlRequest, Response } from "./type";
 
-const url = api<UrlRequest, Response>(
+export const url = api<UrlRequest, Response>(
   {
     method: "POST",
     path: "/url",
