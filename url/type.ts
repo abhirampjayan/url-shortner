@@ -7,5 +7,5 @@ export interface Response {
 }
 
 export interface UrlRequest {
-  filter: Query<string>;
+  url: Query<string>;
 }
